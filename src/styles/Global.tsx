@@ -21,6 +21,9 @@ export const colors = {
     brand1: {
       color: "$brand1",
     },
+    brand5:{
+      color: "$brand5"
+    },
 
     grey1: {
       color: "$grey1",
@@ -63,18 +66,19 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
-      brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
+      brand1: "#22b8cf",
+      brand2: "#fcc2d7",
+      brand3: "#fcc2d7",
+      brand4: "#F1F3F5",  /* background linguagem dos projetos */
+      brand5: "#faa2c1",
       grey1: "#212529",
       grey2: "#495057",
       grey3: "#CED3D7",
-      grey4: "#F1F3F5",
-      grey5: "#F8F9FA",
-      grey6: "#DEE0FB",
-      whiteFixed: "#ffffff",
-      mode: "#ffffff",
+      grey4: "#F1F3F5", /* background ferramentas que domino */
+      grey5: "#F8F9FA",   /* cor letra CRIANDO EXPERIENCIAS */
+      grey6: "#DEE0FB",   /* cor descriçãoa abaixo */
+      whiteFixed: "#fcc2d7",   /* cor botão projetos e ferramentas que domino */
+      mode: "#e3fafc",   /*  navbar */
     },
     sizes: {
       container: "75rem",

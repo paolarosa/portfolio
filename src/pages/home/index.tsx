@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -32,12 +31,12 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Unindo arte e tecnologia para criar experiências web memoráveis{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Desenvolvedora Full Stack formada pela Kenzie Academy Brasil,
+              realizei diversos projetos individuais e em grupo, sempre
+              transformando ideias em soluções.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -67,12 +66,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
-                Vamos trocar uma ideia?
+                Quer saber mais sobre mim?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No linkedIn compartilho mais informações sobre mim e meus
+                processos diários. Estou disposta a trocar algumas ideias por
+                lá!
               </Text>
               <Button
                 type="primary"
@@ -88,11 +87,14 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
+                Criando projetos com{" "}
+                <Text as="span" color="brand5" type="heading2">
                   dedicação
                 </Text>{" "}
-                em cada detalhe
+                e{" "}
+                <Text as="span" color="brand1" type="heading2">
+                  originalidade
+                </Text>{" "}
               </Text>
               <Project />
             </ProjectsAreaContent>
