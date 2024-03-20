@@ -31,19 +31,20 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Unindo arte e tecnologia para criar experiências web memoráveis{" "}
+              Bringing together art and technology to craft memorable web
+              experiences{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Desenvolvedora Full Stack formada pela Kenzie Academy Brasil,
-              realizei diversos projetos individuais e em grupo, sempre
-              transformando ideias em soluções.
+              Full Stack developer graduated from Kenzie Academy Brazil, I have
+              completed several individual and group projects, consistently
+              turning ideas into solutions.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
-                Projetos
+                Projects
               </Button>
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
-                Tecnologias
+                Technologies
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
@@ -52,7 +53,7 @@ export const Home = (): JSX.Element => {
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
-            Ferramentas que domino
+            Languages and Tools
           </Text>
           <StackCards>
             {stackData.map((stack, index) => (
@@ -66,12 +67,11 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
-                Quer saber mais sobre mim?
+                Do you want to know more about me?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn compartilho mais informações sobre mim e meus
-                processos diários. Estou disposta a trocar algumas ideias por
-                lá!
+                On LinkedIn, I share more about myself and my daily processes.
+                I'm open to exchanging some ideas over there!
               </Text>
               <Button
                 type="primary"
@@ -79,21 +79,21 @@ export const Home = (): JSX.Element => {
                 as="a"
                 href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
               >
-                Acessar perfil no LinkedIn
+                Access profile on LinkedIn
               </Button>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
               <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
-                Projetos
+                Projects
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Criando projetos com{" "}
+                Creating projects with{" "}
                 <Text as="span" color="brand5" type="heading2">
-                  dedicação
+                  dedication
                 </Text>{" "}
-                e{" "}
+                and{" "}
                 <Text as="span" color="brand1" type="heading2">
-                  originalidade
+                  originality
                 </Text>{" "}
               </Text>
               <Project />
